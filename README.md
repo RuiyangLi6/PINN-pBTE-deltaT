@@ -1,2 +1,2 @@
-# PINN-pBTE-deltaT
+# PINN for solving phonon BTE under arbitrary temperature difference
 [Physics-informed deep learning for solving phonon Boltzmann transport equation with large temperature non-equilibrium](https://www.nature.com/articles/s41524-022-00712-y)
