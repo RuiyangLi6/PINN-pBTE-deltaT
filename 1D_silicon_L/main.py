@@ -16,6 +16,13 @@ from mesh_gen import *
 from beta_train import beta_train
 from bte_train import bte_train, bte_test
 
+'''
+	PINN for 1D cross-plane phonon transport in silicon.
+	Here the system length is included as an input variable to enable parametric learning.
+	In this case reference temperature Tref = 300K, while the boundary temperature Th = 301K, Tc = 299K
+	The boundary temperature difference can be adjusted for your own problem.
+	Scaling factor Beta mentioned in the paper is trained via "beta_train".
+'''
 epochs = 30000
 path = "./train/"
 Nl = 9  # number of length samples
